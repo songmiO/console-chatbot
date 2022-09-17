@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/Dalgona/neodgm-webfont@1.510/neodgm/style.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="chatbot-image">
+        <img src="./assets/console-game.png" alt="Console game" />
+      </div>
+      <div class="chatbot-result">
+        <div class="text-result">땅땅 오락실에 온 것을 환영합니다!</div>
+        <img
+          class="chatbot-smile-image"
+          src="./assets/smile-chat-image.png"
+          alt="Smile Logo"
+        />
+        <img
+          class="jo-coding-image"
+          src="./assets/jo-coding-image.jpg"
+          alt="Jo Coding Image"
+        />
+      </div>
+      <img
+        class="jo-coding-logo"
+        src="./assets/jo-coding.png"
+        alt="Jo Coding Logo"
+      />
+      <input
+        type="text"
+        placeholder="여기에 입력하세요"
+        class="chatbot-input"
+      />
+      <button type="submit" class="chatbot-button" onclick="confirm()">
+        전송
+      </button>
+    </div>
+    <script src="./chatbot.js"></script>
+  </body>
+</html>
